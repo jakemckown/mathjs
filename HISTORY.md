@@ -1,6 +1,20 @@
 # History
 
 
+# 2019-07-07, version 6.0.3
+
+- Add `unpkg` and `jsdelivr` fields in package.json pointing to UMD build.
+  Thanks @tmcw.
+- Fix #1550: nested user defined function not receiving variables of an
+  outer user defined function.
+
+
+# 2019-06-11, version 6.0.2
+
+- Fix not being able to set configuration after disabling function `import`
+  (regression since v6.0.0).
+
+
 # 2019-06-09, version 6.0.1
 
 - Fix function reference not published in npm library.
